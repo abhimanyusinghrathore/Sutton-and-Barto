@@ -58,7 +58,7 @@ for i in range(0, WORLD_SIZE):
         actionReward[i].append(reward)
 
 it = 0
-while it < 2:
+while it < 77:
     it += 1
     # keep iteration until convergence
     newWorld = np.zeros((WORLD_SIZE, WORLD_SIZE))
